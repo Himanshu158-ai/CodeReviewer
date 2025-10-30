@@ -1,0 +1,36 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.lock
+
+# Node / npm / yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+vendor/
+bower_components/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.cache/
