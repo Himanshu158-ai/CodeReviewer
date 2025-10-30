@@ -28,7 +28,7 @@ export const App = () => {
   async function handleClick() {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3000/ai/generate', {
+      const response = await axios.post('https://codereviewer-o67m.onrender.com/ai/generate', {
         prompt: prompt
       });
       setoutput(response.data);
