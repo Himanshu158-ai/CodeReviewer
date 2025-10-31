@@ -66,14 +66,23 @@
   height: 80%;
   width: 100%;
   border-bottom: 0.8px solid #cccccc08;
+  /* background-color: pink; */
   border-radius: 1rem;
   padding: 2rem;
   overflow: auto;
   flex-wrap: nowrap;
+  position: relative;
+}
+
+.output .Loa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .code-highlighter{
-  /* background-color: transparent !important; */
+  /* background-color: rgba(0, 0, 0, 0.73) !important; */
   border: 0.01rem solid rgba(255, 255, 255, 0.264);
 }
 
